@@ -100,8 +100,12 @@ body {
 }
 
 .org-title h1 {
-  color: #ff6b35;
+  /* color: #ff6b35;
   font-size: 24px;
+  font-weight: bold;
+  margin: 0; */
+  color: #2c5aa0;
+  font-size: 22px;
   font-weight: bold;
   margin: 0;
 }
@@ -120,11 +124,16 @@ body {
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
+  /* color: white !important;
   padding: 12px 15px !important;
   font-size: 13px;
   font-weight: 500;
-  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.2); */
+  color: white !important;
+  padding: 12px 15px !important;
+  font-size: 16px;
+  font-weight: bold;
+  font-weight: bold;
 }
 
 .navbar-nav .nav-link:hover {
@@ -337,6 +346,9 @@ body {
 }
 
 /* News Cards */
+.news-ticker strong{
+  font-size: 14px;
+}
 .news-card {
   border: 1px solid #ddd;
   border-radius: 5px;
