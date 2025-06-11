@@ -708,3 +708,19 @@ body {
     height: 250px;
   }
 }
+@media (min-width: 1600px) {
+ .slide-item {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+  .hero-slider {
+    height: 80vh;
+  }
+  .main-header {
+   
+            background: none;
+
+}
+}
